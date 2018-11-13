@@ -11,5 +11,5 @@ if (get_cfg_var('env.name') == 'dev')
 {
     Swoole::$php->config->setPath(WEBPATH . '/configs/dev/');
 }
-exit('asdasad');
+
 Swoole::$php->runMVC();
